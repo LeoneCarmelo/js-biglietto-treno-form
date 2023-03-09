@@ -45,7 +45,48 @@
   
 
     <!-- Ticket -->
-    <span></span>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <h2 class="text-uppercase text-center text-white fw-bold fs-3">Il tuo biglietto</h2>
+                <div class="row bg-white p-3">
+                    <div class="col p-2">
+                        <h4 class="fw-bold text-uppercase">Dettaglio passeggero</h4>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="data p-2 h-100">
+                                    <span class="text-uppercase fw-bold">Nome passeggero</span>
+                                    <span class="d-block fw-bold" id="nome_passeggero"></span>
+                                </div>
+                                
+                            </div>
+                            <div class="col-8">
+                                <table class="table table-borderless">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Offerta</th>
+                                        <th scope="col">Carrozza</th>
+                                        <th scope="col">Codice CP</th>
+                                        <th scope="col">Costo biglietto
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th id="offerta" class="fw-normal" scope="row"></th>
+                                        <td id="carrozza"></td>
+                                        <td id="cap"></td>
+                                        <td id="ticket_cost"></td>
+                                      </tr>
+                                      
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <p></p>
     <script src="./assets/js/main.js"></script>
 </body>

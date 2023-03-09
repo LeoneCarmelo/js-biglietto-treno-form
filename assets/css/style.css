@@ -27,14 +27,20 @@ input[id="name"], input[id="km"], select {
     border-radius: 3px;
 }
 
-.col-12 input {
+.col-12 input, label {
     color: var(--body);
 }
 
 /* #endregion Form */
 
 /* #region Ticket */
-
+.data {
+    background-color: var(--ticket);
+}
+.col-8 {
+    border-top: 1px solid var(--ticket);
+    border-bottom: 1px solid var(--ticket);
+ }
 /* #endregion Ticket */
 
 
