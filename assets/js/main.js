@@ -48,4 +48,6 @@ btnEl.addEventListener('click', function() {
 resetEl.addEventListener('click', function() {
     nameEl.value = ''
     kmEl.value = ''
+    ticketEl.innerHTML = ''
+    ticketName.innerHTML = ''
 })

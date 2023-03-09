@@ -4,5 +4,38 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* #endregion Reset */
+
+/* #region Color */
+:root {
+    --body: #b91450;
+    --ticket: #808080;
+}
+/* #endregion Color */
+
+
+/* #region Common */
+body {
+    background: var(--body);
+}
+/* #endregion Common */
+/* #region Form */
+input[id="name"], input[id="km"], select {
+    width: 80%;
+    text-align: center;
+    border: 1px solid var(--body);
+    border-radius: 3px;
+}
+
+.col-12 input {
+    color: var(--body);
+}
+
+/* #endregion Form */
+
+/* #region Ticket */
+
+/* #endregion Ticket */
+
+
+
