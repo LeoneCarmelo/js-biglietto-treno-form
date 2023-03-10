@@ -33,11 +33,12 @@ const capEl = document.getElementById('cap')
 
 
 /* Code */
-const costTotalKm = kmEl.value * priceKm;
-let ticketCost
-let ticketType
+
 
 btnEl.addEventListener('click', function() {
+    const costTotalKm = kmEl.value * priceKm;
+    let ticketCost
+    let ticketType
  
     if (ageEl.options.selectedIndex == 0 ) {
         ticketCost = costTotalKm - (costTotalKm * youngDiscount) / 100
